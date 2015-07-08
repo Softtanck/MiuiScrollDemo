@@ -25,6 +25,79 @@
             android:layout_height="100px"
             android:background="#ff0000"
             android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff00ff"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#fff000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#fffff0"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff0000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#fff000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff0000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff0000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ffff00"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff0000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff0000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff0ff0"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:background="#ff00ff"
+            android:text="@string/hello_world" />
+
     </LinearLayout>
 
 

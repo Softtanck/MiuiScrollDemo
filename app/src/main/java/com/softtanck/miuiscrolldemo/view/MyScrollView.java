@@ -83,15 +83,13 @@ public class MyScrollView extends ScrollView {
     private void RefreshChildView(int deltaY) {
 
         for (int i = 0; i < views.length; i++) {
-            int resize = 1 + i * 5;
+            int resize = i * 1;
 //            float resize = 3.0f - (float) (views.length - i) * 0.2f;
             Log.d("Tanck", "deltaY:" + resize);
             int reheight = ((TextView) views[i]).getLayoutParams().height;
             newHeight = reheight + resize;
             ((TextView) views[i]).getLayoutParams().height = newHeight;
             ((TextView) views[i]).requestLayout();
-//            ViewHelper.setScaleX(views[i], resize);
-//            ViewHelper.setScaleY(views[i], resize);
         }
     }
 
