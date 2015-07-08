@@ -69,7 +69,7 @@ public class MyScrollView extends ScrollView {
 
     private void resizeScrollBy(int deltaX, int deltaY, int scrollX, int scrollY, int scrollRangeX, int scrollRangeY, int maxOverScrollX, int maxOverScrollY, boolean isTouchEvent) {
         if (isTouchEvent) {
-            if (0 > deltaY && newHeight < 300) {//下拉
+            if (0 > deltaY && newHeight < 200) {//下拉,2倍
                 RefreshChildView(deltaY);
             }
         }
